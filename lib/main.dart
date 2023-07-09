@@ -1,5 +1,8 @@
 import 'package:anime_viewer/provider/home_provider.dart';
+import 'package:anime_viewer/screen/bookmark.dart';
+import 'package:anime_viewer/screen/bookmarkPage.dart';
 import 'package:anime_viewer/screen/home_page.dart';
+import 'package:anime_viewer/screen/searchPage.dart';
 import 'package:anime_viewer/screen/webview.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -21,6 +24,9 @@ class MyApp extends StatelessWidget {
       routes: {
         "/" : (context) => HomePage(),
         "webview" : (context) => WebView_Page(),
+        "search" : (context) => SearchPage(),
+        "bookmark" : (context) => BookMarkPage(),
+        "bookmarkpage" : (context) => BookMark(),
       },
     );
   }

@@ -31,7 +31,7 @@ class AnimeList {
     AnimeModal(
       AnimeName: "Demon Slayer Movie",
       AnimeImg: "https://img.flawlessfiles.com/_r/300x400/100/ab/45/ab45afa989aa5a2e06ef973c8482b015/ab45afa989aa5a2e06ef973c8482b015.jpg",
-      AnimeUrl: "https://aniwatch.to/kimetsu-no-yaiba-movie-mugen-ressha-hen-15763",
+        AnimeUrl: "https://aniwatch.to/kimetsu-no-yaiba-movie-mugen-ressha-hen-15763",
     ),
     AnimeModal(
       AnimeName: "Demon Slayer: season 2",
@@ -44,24 +44,24 @@ class AnimeList {
       AnimeUrl: "https://aniwatch.to/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-18056",
     ),
     AnimeModal(
-      AnimeName: "",
-      AnimeImg: "",
-      AnimeUrl: "",
+      AnimeName: "Naruto",
+      AnimeImg: "https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg",
+      AnimeUrl: "https://aniwatch.to/naruto-677?ref=search",
     ),
     AnimeModal(
-      AnimeName: "",
-      AnimeImg: "",
-      AnimeUrl: "",
+      AnimeName: "Naruto: Shippuden",
+      AnimeImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKHYpGBZSewL4MBq-Zor25Xl8e8rdbKUkERAQ6PxsIm9Ir39sVQ-l5ifihI8JXPHrb9s0&usqp=CAU",
+      AnimeUrl: "https://aniwatch.to/naruto-shippuden-355",
     ),
     AnimeModal(
-      AnimeName: "",
-      AnimeImg: "",
-      AnimeUrl: "",
+      AnimeName: "Boruto: Naruto Next Generations",
+      AnimeImg: "https://img.flawlessfiles.com/_r/300x400/100/32/c8/32c83e2ad4a43229996356840db3982c/32c83e2ad4a43229996356840db3982c.jpg",
+      AnimeUrl: "https://aniwatch.to/boruto-naruto-next-generations-8143",
     ),
     AnimeModal(
-      AnimeName: "",
-      AnimeImg: "",
-      AnimeUrl: "",
+      AnimeName: "Jujutsu Kaisen 2nd Season",
+      AnimeImg: "https://img.flawlessfiles.com/_r/300x400/100/b5/1f/b51f863b05f30576cf9d85fa9b911bb5/b51f863b05f30576cf9d85fa9b911bb5.png",
+      AnimeUrl: "https://aniwatch.to/jujutsu-kaisen-2nd-season-18413",
     ),
   ];
 }

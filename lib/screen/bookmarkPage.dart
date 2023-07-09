@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:provider/provider.dart';
 
-class WebView_Page extends StatelessWidget {
-  const WebView_Page({Key? key}) : super(key: key);
+class BookMarkPage extends StatelessWidget {
+  const BookMarkPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,19 +17,22 @@ class WebView_Page extends StatelessWidget {
             title: Text("Ani Watch"),
           ),
           body: InAppWebView(
-            initialUrlRequest:
-                URLRequest(url: Uri.parse(AnimeList.Anime[arg as int].AnimeUrl)),
+            initialUrlRequest: URLRequest(
+              url: Uri.parse(
+                "$arg",
+              ),
+            ),
             onWebViewCreated: (controller) {
-              provider.webViewController = controller;
+              Provider.of<HomeProvider>(context).webViewController = controller;
             },
           ),
           bottomNavigationBar: BottomAppBar(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                IconButton(onPressed: () {provider.GoToHome(url: "${AnimeList.Anime[arg].AnimeUrl}");}, icon: Icon(Icons.home),),
+                IconButton(onPressed: () {provider.GoToHome(url: "$arg");}, icon: Icon(Icons.home),),
                 IconButton(
-                    onPressed: () {provider.AddBookmark();}, icon: Icon(Icons.bookmark_add_outlined),),
+                  onPressed: () {provider.AddBookmark();}, icon: Icon(Icons.bookmark_add_outlined),),
                 IconButton(onPressed: () {
                   provider.GoBack();
                 }, icon: Icon(Icons.arrow_back_ios_new),),

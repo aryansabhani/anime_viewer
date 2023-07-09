@@ -1,27 +1,45 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
-class HomeProvider extends ChangeNotifier{
+class HomeProvider extends ChangeNotifier {
   InAppWebViewController? webViewController;
   List BookMark = [];
-  GoToHome({required String url}){
+
+  GoToHome({required String url}) {
     webViewController?.loadUrl(urlRequest: URLRequest(url: Uri.parse(url)));
     notifyListeners();
   }
-  GoBack(){
+
+  GoBack() {
     webViewController?.goBack();
     notifyListeners();
   }
-  GoForward(){
+
+  GoForward() {
     webViewController?.goForward();
     notifyListeners();
   }
-  GoRefresh(){
+
+  GoRefresh() {
     webViewController?.reload();
     notifyListeners();
   }
-  AddBookmark(){
-    var url =  webViewController?.getUrl().toString();
+
+  AddBookmark() async {
+    var url = await webViewController?.getUrl();
     print(url);
+    BookMark.add(url);
+  }
+
+
+  deleteBookmark({required int index}) {
+    BookMark.removeAt(index);
+    notifyListeners();
+  }
+
+  SearchAnime({required String url}) {
+    webViewController?.loadUrl(
+        urlRequest: URLRequest(
+            url: Uri.parse("https://aniwatch.to/search?keyword=$url")));
   }
 }
