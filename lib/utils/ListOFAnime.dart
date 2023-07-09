@@ -24,22 +24,22 @@ class AnimeList {
       AnimeUrl: "https://aniwatch.to/chainsaw-man-17406",
     ),
     AnimeModal(
-      AnimeName: "Demon Slayer: Kimetsu no Yaiba",
+      AnimeName: "Demon Slayer: season 1",
       AnimeImg: "https://img.flawlessfiles.com/_r/300x400/100/30/df/30df93feaa422101659e14d0a2a2f582/30df93feaa422101659e14d0a2a2f582.jpg",
       AnimeUrl: "https://aniwatch.to/demon-slayer-kimetsu-no-yaiba-47",
     ),
     AnimeModal(
-      AnimeName: "Demon Slayer Movie: Mugen Train",
+      AnimeName: "Demon Slayer Movie",
       AnimeImg: "https://img.flawlessfiles.com/_r/300x400/100/ab/45/ab45afa989aa5a2e06ef973c8482b015/ab45afa989aa5a2e06ef973c8482b015.jpg",
       AnimeUrl: "https://aniwatch.to/kimetsu-no-yaiba-movie-mugen-ressha-hen-15763",
     ),
     AnimeModal(
-      AnimeName: "Demon Slayer: Entertainment District Arc",
+      AnimeName: "Demon Slayer: season 2",
       AnimeImg: "https://img.flawlessfiles.com/_r/300x400/100/3e/13/3e13d0ab2ce8799c9da8ed59548b96e9/3e13d0ab2ce8799c9da8ed59548b96e9.jpg",
       AnimeUrl: "https://aniwatch.to/demon-slayer-entertainment-district-arc-17483",
     ),
     AnimeModal(
-      AnimeName: "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      AnimeName: "Demon Slayer: season 3",
       AnimeImg: "https://img.flawlessfiles.com/_r/300x400/100/db/2f/db2f3ce7b9cab7fdc160b005bffb899a/db2f3ce7b9cab7fdc160b005bffb899a.png",
       AnimeUrl: "https://aniwatch.to/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-18056",
     ),
