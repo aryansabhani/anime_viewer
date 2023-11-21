@@ -24,3 +24,7 @@ content.</p>
 <img src="https://github.com/aryansabhani/anime_viewer/assets/112259316/aca52f16-0604-4590-b8de-f5c9b915c5c7"  height="400">
 
 <h2>Video:-</h2>
+
+
+https://github.com/aryansabhani/anime_viewer/assets/112259316/3aad4dfb-1923-4ed8-af06-096b8ae2dbc3
+
