@@ -1,5 +1,5 @@
 <header>
-  <h1>Project Definition: My Browser App (Mirror Wall)</h1>
+  <h1>Project Definition: Anime Viewr APP</h1>
 
 <h2>Project Description:-</h2>
 <p>The aim of this project is to develop a mobile browser application using the Flutter framework
@@ -18,9 +18,9 @@ content.</p>
 <p>- Flutter framework with MVC and Provider architecture.</p>
 
  <h2>Screenshot:-</h2>
-<img src="https://github.com/aryansabhani/pr_2/assets/112259316/6b648d51-887a-4fe7-8ca2-6409eb06da8d" alt="Girl in a jacket" height="400">
-<img src="https://github.com/aryansabhani/pr_2/assets/112259316/af8e551d-4c1a-43c8-9636-243e647a987f" alt="Girl in a jacket" height="400">
-<img src="https://github.com/aryansabhani/pr_2/assets/112259316/604baa22-7d4d-4b93-acc6-7db12ff91cf7" alt="Girl in a jacket" height="400">
-<img src="https://github.com/aryansabhani/pr_2/assets/112259316/9cfb3084-09ad-4e80-9cb0-e4066ce6ea8b" alt="Girl in a jacket" height="400">
+<img src="https://github.com/aryansabhani/anime_viewer/assets/112259316/a2b3db17-c185-4a63-85b5-79a79b5aa5a5"  height="400">
+<img src="https://github.com/aryansabhani/anime_viewer/assets/112259316/83768985-4362-49c0-a9bc-02487c4a469b"  height="400">
+<img src="https://github.com/aryansabhani/anime_viewer/assets/112259316/9ae6533a-a780-44e1-93f2-50d91bb4816a"  height="400">
+<img src="https://github.com/aryansabhani/anime_viewer/assets/112259316/aca52f16-0604-4590-b8de-f5c9b915c5c7"  height="400">
 
 <h2>Video:-</h2>
